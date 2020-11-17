@@ -55,7 +55,7 @@ In theory, this module supports:
   Linux and MacOS (running on *actual* Linux and MacOS installations,
   **not** Git for bash, which is **not** Linux).
 
-- **Git for Bash / MSYS2**, though the check is _super_ weird
+- **Git for Windows / MSYS2**, though the check is _super_ weird
   and might actually give false positives depending on the MSYS
   version you're using. Please file issues where necessary.
 
