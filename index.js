@@ -5,7 +5,7 @@
 	      are mostly confident indicators that do not
 	      rely on this sort of distinction even on windows
 	      and thus the current implementation (as of writing)
-	      does not different between the two.
+	      does not differentiate between the two.
 
 	      However, I am keeping that distinction in the readme
 	      there as a reservation for future version if they
