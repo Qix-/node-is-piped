@@ -9,5 +9,12 @@
     "index.js",
     "LICENSE.txt"
   ],
+  "keywords": [
+    "pipe",
+    "file",
+    "descriptor",
+    "check",
+    "fifo"
+  ],
   "main": "index.js"
 }
