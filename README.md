@@ -21,9 +21,6 @@ $ npm i is-piped
   is meant for certain special-case handling in certain environments/on
   certain systems.
 
-- When in cmd.exe, `false` is always reported. There's nothing I can
-  do about this - Windows is simply broken from the ground up.
-
 - **There are no tests.** While every effort has been made to ensure
   this won't cause [demons to fly out of your nose](http://catb.org/jargon/html/N/nasal-demons.html),
   you should be very defensive around the callsites into this module.
@@ -36,9 +33,8 @@ $ npm i is-piped
   predate or succeed this module's writing.
 
 - In some cases, we can detect if it is a file redirection (_not_ a pipe)
-  attached to a file descriptor. For `.out()`, we return `false`.
-  For `.in()`, we return `true`. If this is a serious problem for you,
-  please open a ticket and we can discuss potential API changes.
+  attached to a file descriptor. In such cases, `false` is returned.
+  This is to match &ast;NIX functionality.
 
 - In some cases, a **truly** closed/invalid file descriptor may still
   return a result instead of throwing. **Please check the validity of
