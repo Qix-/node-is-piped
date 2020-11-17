@@ -146,7 +146,7 @@ if (os.platform() === 'win32') {
 			*/
 			return {
 				piped: s.dev === 0,
-				confident: true
+				confident: false
 			};
 		};
 
