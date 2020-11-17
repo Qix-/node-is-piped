@@ -59,11 +59,9 @@ In theory, this module supports:
   and might actually give false positives depending on the MSYS
   version you're using. Please file issues where necessary.
 
-- **PowerShell on Windows**, though this check is _also_ super weird
-  and might report false negatives/positives depending on the Node.js
-  version being used.
-
-- **CYGWIN**
+- **CMD.exe, PowerShell on Windows, and CYGWIN**, though this check is
+  _also_ super weird and might report false negatives/positives depending
+  on the Node.js version being used or the Windows version.
 
 ## Usage
 
