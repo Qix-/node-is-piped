@@ -21,12 +21,6 @@ $ npm i is-piped
   is meant for certain special-case handling in certain environments/on
   certain systems.
 
-- The file descriptors are automatically checked against the `process.std{in,out,err}`
-  streams and will perform some additional checks to eliminate some false
-  negatives in certain cases. Due to this, some non-standard streams'
-  file descriptors may report `false` when the standard streams might
-  otherwise return `true`.
-
 - When in cmd.exe, `false` is always reported. There's nothing I can
   do about this - Windows is simply broken from the ground up.
 
