@@ -1,0 +1,13 @@
+{
+  "name": "is-piped",
+  "description": "Determine if a file descriptor is connected to a pipe",
+  "version": "0.0.0",
+  "repository": "qix-/node-is-piped",
+  "license": "MIT",
+  "author": "Josh Junon (github.com/qix-)",
+  "files": [
+    "index.js",
+    "LICENSE.txt"
+  ],
+  "main": "index.js"
+}
